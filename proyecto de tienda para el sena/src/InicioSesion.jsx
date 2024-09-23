@@ -81,7 +81,7 @@ function InicioSesion() {
         <form onSubmit={handleBusqueda} className="Inicio-busqueda">
           <input 
             type="text" 
-            placeholder="BUSCAR PRODUCTOS..." 
+            placeholder="BUSCAR PRODUCTOS...." 
             value={busqueda} 
             onChange={(e) => setBusqueda(e.target.value)} 
           />
