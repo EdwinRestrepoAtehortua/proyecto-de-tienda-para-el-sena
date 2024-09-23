@@ -1,0 +1,191 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+.Inicio-header {
+  background-color: #FFD700;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-general {
+  display: flex;
+  align-items: center;
+}
+
+.Encabezado {
+  height: 60px;
+}
+
+.Inicio-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.Inicio-nav ul li {
+  margin-right: 15px;
+}
+
+.barra_navegacionin {
+  background-color: #007bff; /* Azul */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.barra_navegacionin:hover {
+  background-color: #ff0000; /* Cambia a rojo al pasar el cursor */
+  transform: translateY(-2px); /* Añadir un ligero levantamiento al hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Aumentar la sombra */
+}
+
+.Inicio-busqueda button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.barra_navegacion:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carrito-compras {
+  font-size: 18px;
+}
+
+.Inicio-busqueda {
+  display: flex;
+  align-items: center;
+  
+}
+
+.Inicio-busqueda input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  
+}
+
+
+
+.Inicio-busqueda button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenido principal */
+.Inicio-main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.Inicio-main h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+
+.Inicio-contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Inicio-producto {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Inicio-producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.Inicio-producto h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.Inicio-producto p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.Inicio-producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Pie de página */
+.footerin {
+  background: linear-gradient(90deg, #f60202d6 50%, #2f02f7 50%);
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  position: relative;
+
+  font-size: 24px;
+  text-align: center;
+  color: #f9f9f9;
+  text-shadow: 0 0 5px rgb(247, 251, 247), 0 0 10px red, 0 0 15px rgb(221, 106, 12);
+}
+/* Estilos generales para los botones */
+.boton-general {
+  padding: 8px 15px;
+  background-color: #007bff; /* Color de fondo por defecto */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano al pasar sobre el botón */
+  font-size: 14px; /* Tamaño de la fuente */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Transiciones suaves */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+/* Estilo cuando el botón está en modo hover */
+.boton-general:hover {
+   background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Manito en hover */
+  font-size: 14px; /* Tamaño de texto */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Transiciones suaves */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+

@@ -1,0 +1,162 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilos para el encabezado */
+.principalc {
+  background-color: #FFD700;
+  padding:  40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-general {
+  display: flex;
+  align-items: center;
+}
+
+.navegacion-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navegacion-ul li {
+  margin-right: 10px;
+}
+
+/* Barra de búsqueda ajustada */
+.barra_busqueda {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.barra_busqueda input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px;
+  margin-right: 5px;
+  width: 200px; /* Ajusta el ancho */
+}
+
+.barra_busqueda button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  height: 30px;
+}
+
+/* Estilos para los botones de navegación */
+.barra_navegacion {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.barra_navegacion:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carrito-compras {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.carrito-compras:hover,
+.barra_busqueda button:hover {
+  background-color: #ff0000;
+}
+
+/* Estilos para los contenedores principales */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.formulario_contacto, .formulario_registro {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 1;
+  max-width: 400px;
+  margin-right: 100px;
+}
+
+.formulario_contacto img.imagen-contacto {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.formulario_registro h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(0, 98, 255);
+}
+
+.formulario_registro input,
+.formulario_registro textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario_registro button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  
+
+  background-color: #0062ff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.footerco {
+  background: linear-gradient(90deg, #f60202d6 50%, #2f02f7 50%);
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  color: white;
+}

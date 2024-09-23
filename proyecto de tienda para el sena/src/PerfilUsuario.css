@@ -1,0 +1,80 @@
+/* PerfilUsuario.css */
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #007BFF; /* Color azul para el título */
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.perfil-info p {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.perfil-info input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para los botones */
+.edit-button, .logout-button {
+  background-color: #007BFF; /* Color azul para los botones */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 12px; /* Border radius para el borde redondeado */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Efecto 3D con sombra */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover, .logout-button:hover {
+  background-color: red;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Cambiar el efecto 3D cuando pasas el cursor */
+}
+
+.edit-button:active, .logout-button:active {
+  box-shadow: none; /* Quitar el efecto 3D al hacer clic */
+  transform: translateY(4px); /* Simular clic al bajar el botón */
+}
+
+/* Contenedor para los botones */
+.botones-container {
+  display: flex;
+  justify-content: center; /* Centrar los botones horizontalmente */
+  gap: 10px; /* Espacio entre los botones */
+  margin: 20px 0; /* Espacio arriba y abajo del contenedor de botones */
+}
+
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+
+ 

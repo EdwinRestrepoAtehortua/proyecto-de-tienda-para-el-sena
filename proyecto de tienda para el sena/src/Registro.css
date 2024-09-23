@@ -1,0 +1,200 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Página de registro */
+.pagina-registro {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Encabezado */
+.header-registro {
+  background-color: #FFD700;
+  padding:  30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-logo .logo {
+  height: 60px;
+}
+
+.navegacion ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navegacion li {
+  margin-right: 15px;
+}
+
+.barra_navegacionr {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+  
+}
+
+.barra_navegacionre{
+  margin-left: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.barra_navegacion:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el ícono del carrito */
+.carrito-comprasre {
+  font-size: 24px; /* Ajusta el tamaño del ícono */
+  background-color: transparent; /* Asegura que el fondo sea transparente */
+  border: none; /* Elimina cualquier borde del botón */
+  cursor: pointer; /* Muestra un cursor de puntero al pasar sobre el ícono */
+ 
+  margin-left: 20px; /* Espacio a la izquierda del ícono del carrito, si es necesario */
+}
+
+.carrito-compras:hover {
+  color: #ff0000; /* Cambia el color del ícono al pasar el mouse sobre él */
+}
+
+
+.barra_busqueda {
+  display: flex;
+  align-items: center;
+}
+
+.barra_busqueda input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.barra_busqueda button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.barra_busqueda button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulario */
+.formulario {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.formulario h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.terminos-condiciones {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.terminos-condiciones label {
+  margin-left: 5px;
+}
+
+.formulario input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pie de página */
+.footerr {
+  background: linear-gradient(90deg, #f60202d6 50%, #2f02f7 50%);
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  position: relative;
+
+  font-size: 24px;
+  text-align: center;
+  color: #f9f9f9;
+  text-shadow: 0 0 5px rgb(247, 251, 247), 0 0 10px red, 0 0 15px rgb(221, 106, 12);
+}
