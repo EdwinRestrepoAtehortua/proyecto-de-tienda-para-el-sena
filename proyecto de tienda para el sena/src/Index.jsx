@@ -61,7 +61,7 @@ function Inicio() {
             <div className="Inicio-producto">
               <img src={imagen2} alt="Producto 2" />
               <h3>PRODUCTOS ALIMENTICIOS</h3>
-              <p>Explora nuestra amplia variedad de productos alimenticios, seleccionados para satisfacer todas tus necesidades culinarias.</p>
+              <p>Explora nuestra amplia variedad de productos alimenticios, seleccionados para satisfacer todas tus necesidades culinarias y gastronomicas.</p>
             </div>
           </Link>
           <Link to="/Categorias" style={{ textDecoration: 'none', color: 'inherit' }}>
